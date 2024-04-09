@@ -2,6 +2,7 @@
  *
  * @param {String} message
  * @param {Number} maxLength
+ * @returns {String}
  */
 function formatMessage(message, maxLength) {
   if (message.length > maxLength) {

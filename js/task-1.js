@@ -3,7 +3,7 @@
  * @param {Number} quantity
  * @param {Number} pricePerDroid
  * @param {Number} customerCredits
- * @returns
+ * @returns {String}
  */
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
   const totalPrice = quantity * pricePerDroid;
